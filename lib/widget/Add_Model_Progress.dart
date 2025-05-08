@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/widget/Custome_Button.dart';
+import 'package:untitled/widget/Custome_Text_Feild.dart';
 
 class AddModelProgressSheet extends StatelessWidget {
   const AddModelProgressSheet({super.key});
@@ -10,15 +12,12 @@ class AddModelProgressSheet extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(height: 50),
-          TextFormField(
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              hintText: "Add Note",
-              hintStyle: TextStyle(
-                color:Colors.deepPurple,
-              )
-            ),
-          ),
+          CustomeTextFeild(text: "Add Note",lines: 1),
+          SizedBox(height: 10),
+          CustomeTextFeild(text: "Add Title",lines: 5),
+          SizedBox(height: 30),
+          CustomeButton(),
+
         ],
       ),
     );
