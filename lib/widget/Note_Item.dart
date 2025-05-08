@@ -42,7 +42,7 @@ class NoteItem extends StatelessWidget {
                 ),
                 trailing: IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.add),
+                  icon: Icon(Icons.delete),
                   color: Colors.black,
                 ),
               ),

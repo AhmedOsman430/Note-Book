@@ -21,7 +21,7 @@ class NoteAppbar extends StatelessWidget {
             borderRadius: BorderRadius.circular(12),
             color: Colors.white.withOpacity(.2),
           ),
-          child: Icon(Icons.search_off),
+          child: Icon(Icons.search),
         ),
       ],
     );
