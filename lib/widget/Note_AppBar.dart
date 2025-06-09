@@ -6,6 +6,7 @@ class NoteAppbar extends StatelessWidget {
   @override
   IconData? icon;
   String text;
+  @override
   Widget build(BuildContext context) {
     return Row(
       children: [
